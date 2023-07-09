@@ -1,0 +1,16 @@
+$containerWidth: 1200px;
+$mediaStepOne: 1200px;
+$mediaStepTwo: 992px;
+$mediaStepThree: 920px;
+
+$mainBlue: #014573;
+$mainTextColor: #1f2629;
+
+:export {
+    containerWidth: $containerWidth;
+    mediaStepOne: $mediaStepOne;
+    mediaStepTwo: $mediaStepTwo;
+    mediaStepThree: $mediaStepThree;
+    mainBlue: $mainBlue;
+    mainTextColor: $mainTextColor;
+}

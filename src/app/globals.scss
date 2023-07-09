@@ -1,0 +1,85 @@
+$containerWidth: 1350px;
+$mediaStepOne: 1200px;
+$mediaStepTwo: 992px;
+$mediaStepThree: 920px;
+
+$mainBlue: #014573;
+$mainTextColor: #1f2629;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: $containerWidth;
+  margin: 0 auto;
+  padding: 0px 15px;
+  @media (max-width: $mediaStepOne) {
+    max-width: 1000px;
+  }
+  @media (max-width: $mediaStepTwo) {
+    max-width: 950px;
+  }
+  @media (max-width: $mediaStepThree) {
+    max-width: none;
+  }
+}
+
+.backImg {
+  background-image: url("./back2.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1080px;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.219);
+  height: 97px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+.logo {
+  width: 300px;
+  height: 97px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-image: url("./ulog.png");
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: $mediaStepThree) {
+    width: 300px;
+    height: 97px;
+    border: none;
+    background-image: none;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.logoImg {
+  background-image: url("./logo.png");
+  width: 274px;
+  height: 34px;
+  @media (max-width: $mediaStepThree) {
+    width: 248px;
+  }
+}
+
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

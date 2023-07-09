@@ -1,0 +1,267 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[3].oneOf[9].use[5]!./src/app/components/nav/styles.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_itemsBlock__5FEOf {
+  display: flex;
+  gap: 40px;
+}
+@media (max-width: 1200px) {
+  .styles_itemsBlock__5FEOf {
+    gap: 20px;
+  }
+}
+@media (max-width: 920px) {
+  .styles_itemsBlock__5FEOf {
+    display: none;
+  }
+}
+
+.styles_items__spw_R {
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.styles_items__spw_R:hover {
+  cursor: pointer;
+  border-bottom: 1px solid gray;
+  color: gray;
+}
+@media (max-width: 1200px) {
+  .styles_items__spw_R {
+    font-size: 14px;
+  }
+}
+
+.styles_burger__SLtgs {
+  display: none;
+}
+@media (max-width: 920px) {
+  .styles_burger__SLtgs {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
+.styles_line__qYRKE {
+  font-family: "MuseoModerno";
+  width: 30px;
+  height: 3px;
+  background-color: white;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[3].oneOf[9].use[5]!./src/app/components/mainBlock/styles.module.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_mainBlockWrapper__QUzLv {
+  display: flex;
+  margin-top: 150px;
+  justify-content: space-between;
+}
+@media (max-width: 920px) {
+  .styles_mainBlockWrapper__QUzLv {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+}
+
+.styles_left____Sg3 {
+  margin-top: 90px;
+}
+@media (max-width: 920px) {
+  .styles_left____Sg3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.styles_travelWrapper__V4WwZ {
+  height: 78px;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 920px) {
+  .styles_travelWrapper__V4WwZ {
+    align-items: center;
+  }
+}
+
+.styles_startButton__0kIl4 {
+  margin-top: 150px;
+  background-image: url(/_next/static/media/startButton.db8481b8.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 180px;
+  height: 60px;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.styles_startButton__0kIl4:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+}
+@media (max-width: 920px) {
+  .styles_startButton__0kIl4 {
+    margin-top: 25px;
+  }
+}
+
+.styles_right__TBfeC {
+  width: 380px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+@media (max-width: 920px) {
+  .styles_right__TBfeC {
+    margin-top: 50px;
+    width: 320px;
+  }
+}
+
+.styles_bigH__edz3v {
+  font-size: 50px;
+  background-image: linear-gradient(to left, #ff3f04, #ff5757, #fff), linear-gradient(to bottom, #fff, #fff);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 50px;
+}
+@media (max-width: 920px) {
+  .styles_bigH__edz3v {
+    font-size: 35px;
+  }
+}
+
+.styles_smallText__HsGWi {
+  font-size: 20px;
+  background-image: linear-gradient(to left, #ff3f04, #ff5757, #fff), linear-gradient(to bottom, #fff, #fff);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 20px;
+}
+
+.styles_factTopText__VAVED {
+  font-weight: 100;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.styles_factBigText__Idp6j {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 65px;
+}
+
+.styles_factBottomText__qgacR {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.styles_textBlock__NLjIL {
+  text-align: center;
+  line-height: 40px;
+}
+
+.styles_factBody__4LA__ {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 185px;
+  height: 185px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.4) 180%);
+}
+.styles_factBody__4LA__:hover {
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.144);
+  border-right: 1px solid rgba(255, 255, 255, 0.144);
+}
+@media (max-width: 920px) {
+  .styles_factBody__4LA__ {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.styles_factBody2__Pp_HN {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 185px;
+  height: 185px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(225deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.4) 180%);
+}
+.styles_factBody2__Pp_HN:hover {
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.144);
+  border-right: 1px solid rgba(255, 255, 255, 0.144);
+}
+@media (max-width: 920px) {
+  .styles_factBody2__Pp_HN {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.styles_factBody3__b7MAh {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 185px;
+  height: 185px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.4) 180%);
+}
+.styles_factBody3__b7MAh:hover {
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.144);
+  border-right: 1px solid rgba(255, 255, 255, 0.144);
+}
+@media (max-width: 920px) {
+  .styles_factBody3__b7MAh {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.styles_factBody4__INNyv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 185px;
+  height: 185px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(310deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.4) 180%);
+}
+.styles_factBody4__INNyv:hover {
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.144);
+  border-right: 1px solid rgba(255, 255, 255, 0.144);
+}
+@media (max-width: 920px) {
+  .styles_factBody4__INNyv {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.styles_smallBtn__8caiS {
+  padding: 5px 10px;
+  background-color: #014573;
+  color: white;
+  border-radius: 10px;
+  transition: 0.3s;
+  margin-bottom: 10px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.styles_smallBtn__8caiS:hover {
+  background-color: #012c49;
+}

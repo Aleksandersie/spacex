@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/home/aleksander/repositories/spacex/src/app/layout\":[\"static/media/2aaf0723e720e8b9-s.p.woff2\",\"static/media/1d166d1f895c8030-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
